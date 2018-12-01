@@ -72,7 +72,7 @@ if __name__ == "__main__":
                       cmap='CMRmap')
         ax.text(time[50], 2000, f'Ch{i + 1}', color='white', fontsize=11)
         if i == 4:
-            ax.set(title=f'{shot}', x=0.7, fontsize=9)
+            ax.set_title(f'{shot}', x=0.7, fontsize=9)
         if i < 4:
             ax.set(ylabel='f (kHz)')
         if i % 4 == 3:
